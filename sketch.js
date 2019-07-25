@@ -73,7 +73,7 @@ function draw() {
     trex.velocityY = -10;
   }
   
-  trex.velocityY = trex.velocityY + 0.8
+  trex.velocityY = trex.velocityY + 0.8;
   
   if (ground.x < 0){
     ground.x = ground.width/2;
